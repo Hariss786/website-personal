@@ -341,7 +341,49 @@ section {
   background: #fff;
   border: 2px solid #1f5297;
 }
-
+.family .icon-box {
+  margin-bottom: 20px;
+}
+.family .icon {
+  float: left;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 54px;
+  height: 54px;
+  background: #149ddd;
+  border-radius: 50%;
+  transition: 0.5s;
+  border: 1px solid #149ddd;
+}
+.family .icon i {
+  color: #fff;
+  font-size: 24px;
+  line-height: 0;
+}
+.family .icon-box:hover .icon {
+  background: #fff;
+}
+.family .icon-box:hover .icon i {
+  color: #149ddd;
+}
+.family .title {
+  margin-left: 80px;
+  font-weight: 700;
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+.family .title a {
+  color: #343a40;
+}
+.family .title a:hover {
+  color: #149ddd;
+}
+.family .description {
+  margin-left: 80px;
+  line-height: 24px;
+  font-size: 14px;
+}
 .portfolio .portfolio-item {
   margin-bottom: 30px;
 }
